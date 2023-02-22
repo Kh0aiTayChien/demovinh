@@ -3,5 +3,4 @@
     <div>
         <img class="text_anh1" src="{{asset('images/Group 52.png')}}">
     </div>
-
 </div>

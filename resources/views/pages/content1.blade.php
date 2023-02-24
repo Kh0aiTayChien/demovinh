@@ -4,7 +4,7 @@
     <div>
         <ul class="header clearfix fixed-top navbar">
             <div class="column menu">
-                <li class="menu1"><<button class="mybtn" onclick="topFunction()" id="myBtn" title="Go to top">><img src="{{ asset('images/logo.png') }}"></button></li>
+                <li class="animate__animated animate__backInLeft"><button class="mybtn logo1" onclick="topFunction()" id="myBtn" title="Go to top"><img class="logo1" src="{{ asset('images/logo.png') }}"></button></li>
                 <script>
                     // Get the button
                     let mybutton = document.getElementById("myBtn");
@@ -27,18 +27,33 @@
                     }
                 </script>
             </div>
-            <div class="column content">
-                <li class="menu2"><a href="#Home" style="text-decoration: none; color: white"><h3>Home</h3></a></li>
-                <li class="menu3"><a href="#logo1"><img src="{{asset('images/logo1.png') }}"></a></li>
+            <div class="column content animate__animated animate__backInRight">
+                <li class="menu2"><a href="#Home" style="text-decoration: none; color: white"><p class="home">Home</p></a></li>
+                <li class="menu3"><a href="#logo1"><img class="logo2" src="{{asset('images/logo1.png') }}"></a></li>
             </div>
         </ul>
         <div class="clear"></div>
-        <img class="anh_to" src="{{ asset('images/Group 39.png') }}">
-        <div class="them_link">
-            <a href="https://google.com" class="btn"><img class="anh_nho" src="{{asset('images/Group 42.png' )}}"></a>
-            <a href="https://fb.com" class="btn"><img class="anh_nho1" src="{{asset('images/Group 40.png')}}"></a>
+        <img class="anh_to animate__animated animate__bounceIn" src="{{ asset('images/Group 39.png') }}">
+        <div class="animate__animated animate__bounceIn them_link">
+            <a href="https://google.com" class="btn"><img class="join anh_nho" src="{{asset('images/bình thường1.png' )}}"></a>
+            <a href="https://fb.com" class="btn"><img class="invest anh_nho1" src="{{asset('images/Group 40.png')}}"></a>
         </div>
-        <img class="text_anh" src="{{asset('images/textanh.png')}}">
+        <img class="text_anh ani_bounceIn" src="{{asset('images/textanh.png')}}">
+        <img class="text_anh2 ani_bounceIn" src="{{asset('images/text.png')}}">
+        <div class="chinh_anh">
+        <img class="rectangle" src="{{asset('images/Rectangle 6.png')}}">
+            <div>
+                <img class="icon1 ani_fadeInLeft aniUtil_dramatic" src="{{asset('images/Group 48.png')}}">
+            </div>
+        </div>
+        <img class="icon2 ani_fadeInRight aniUtil_dramatic" src="{{asset('images/Group 491.png')}}">
+        <img class="name_banner_icon3 ani_zoomIn aniUtil_dramatic" src="{{asset('images/BACKED BY THE TOP VENTURES.png')}}">
+        <img class="banner_icon3 ani_bounceInDown aniUtil_dramatic" src="{{asset('images/Group 45.png')}}">
+        <img class="banner_icon4 ani_bounceInDown aniUtil_dramatic" src="{{asset('images/Group 46.png')}}">
+        <img class="banner_icon5 ani_bounceInDown aniUtil_dramatic" src="{{asset('images/Group 47.png')}}">
+        <img class="banner_name ani_bounceInDown aniUtil_dramatic" src="{{asset('images/Group 42.png')}}">
+        <img class="banner_icon6 ani_fadeInLeft aniUtil_dramatic" src="{{asset('images/Group 43.png')}}">
+        <img class="banner_icon7 ani_fadeInRight aniUtil_dramatic" src="{{asset('images/Group 441.png')}}">
     </div>
 </div>
 
